@@ -1,6 +1,6 @@
 export default class PortaModel {
     #numero: number
-    #temPresente: boolean
+    #temPresente: boolean 
     #selecionada: boolean
     #aberta: boolean
 
