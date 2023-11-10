@@ -1,8 +1,13 @@
-.formulario {
+.form {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+
+.form > div {
+    display: flex;
 }
 
 .link {
@@ -11,4 +16,15 @@
     align-items: center;
     flex: 1;
     margin: 0;
+}
+
+.align {
+    display: flex;
+    flex: 1;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    text-align: center;
 }

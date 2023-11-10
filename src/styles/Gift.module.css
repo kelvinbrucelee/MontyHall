@@ -1,4 +1,4 @@
-.presente {
+.gift {
     position: relative;
     display: flex;
     width: 200px;
@@ -6,26 +6,26 @@
     align-items: center;
 }
 
-.tampa {
+.lid {
     width: 100px;
     height: 25px;
     background-color: #7aa944;
 }
 
-.corpo {
+.body {
     width: 90px;
     height: 60px;
     background-color: #5c7e32;
 }
 
-.laco1 {
+.ribbon1 {
     position: absolute;
     width: 15px;
     height: 85px;
     background-color: red;
 }
 
-.laco2 {
+.ribbon2 {
     position: absolute;
     top: 40px;
     width: 90px;
