@@ -3,7 +3,7 @@ export default class DoorModel {
     #hasGift: boolean;
     #selected: boolean;
     #open: boolean;
-
+    
     constructor(number, hasGift = false, selected = false, open = false) {
         this.#number = number;
         this.#hasGift = hasGift;

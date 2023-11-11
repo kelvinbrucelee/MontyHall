@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Card from "../components/Card";
 import styles from "../styles/Form.module.css";
 import NumericInput from "../components/NumericInput";
@@ -7,6 +7,15 @@ import NumericInput from "../components/NumericInput";
 export default function Form() {
   const [doorQuantity, setDoorQuantity] = useState(3);
   const [giftDoor, setGiftDoor] = useState(1);
+
+  useEffect(() => {
+    if(giftDoor > doorQuantity) {
+      setGiftDoor(doorQuantity);
+    }
+    if(giftDoor < 1){
+      setGiftDoor(0);
+    }
+  }, [doorQuantity, giftDoor]);
 
   return (
     <div className={styles.form}>
