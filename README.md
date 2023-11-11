@@ -22,7 +22,7 @@ npm run dev
 
 Congratulations, you successfully executed the MontyHall project! :partying_face:
 
-- The development server will start at [Integration guide](http://localhost:3000) Open this URL in your browser to see your application running.
+- The development server will start at [Integration guide](http://localhost:3000).
 
 ```MontyHall/
 |-- pages/
